@@ -24,7 +24,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/ecommerce/" element={<HomePage />}>
+        <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
           <Route path="home" element={<Home />} />
           <Route path="about-us" element={<AboutUs />} />
